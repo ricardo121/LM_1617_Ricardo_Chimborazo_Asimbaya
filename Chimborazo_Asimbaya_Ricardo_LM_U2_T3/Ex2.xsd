@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Books">
+        <xs:complexType>
+            <xs:sequence>                
+                <xs:element ref="Book" minOccurs="1" maxOccurs="2"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Book">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Autor"/>
+                <xs:element ref="Fecha"/>
+                <xs:element ref="Titulo"/>
+                <xs:element ref="Editorial"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Autor" type="xs:string"/>
+    <xs:element name="Fecha" type="xs:string"/>
+    <xs:element name="Titulo" type="xs:string"/>
+    <xs:element name="Editorial" type="xs:string"/>
+</xs:schema>    

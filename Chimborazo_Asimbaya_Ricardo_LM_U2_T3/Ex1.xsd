@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="members">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="member" minOccurs="1" maxOccurs="10"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="member">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Member-Name"/>
+                <xs:element ref="Years-of-Membership"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Member-Name" type="xs:string"/>
+    <xs:element name="Years-of-Membership" type="xs:decimal"/>
+</xs:schema> 

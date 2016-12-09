@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Books>
+    <Book>
+        <Autor>Antoniou, G. y F. van Harmelen</Autor>
+        <Fecha>2004</Fecha>
+        <Titulo>Una cartilla de Web Semántica. Cambridge</Titulo>
+        <Editorial> MA: MIT Press.</Editorial>
+    </Book>
+    <Book>
+        <Autor>Daconts, MC, LJ Orbst, y KT Smith</Autor>
+        <Fecha>2003</Fecha>
+        <Titulo>La Web Semántica: Una guía para el futuro de XML , Servicios Web, y Gestión del Conocimiento</Titulo>
+        <Editorial>Nueva York: Wiley.</Editorial>
+    </Book>
+</Books>
+        
