@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partido[
+<!ELEMENT partido (Equipos|jugadores)*>
+<!ELEMENT Equipos (Equipo-casa|Equipo-visitante)*>  
+<!ELEMENT Equipo-casa (nombre)>
+<!ELEMENT Equipo-visitante (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT jugadores (jugadores-casa|jugadores-visitantes)*>
+<!ELEMENT jugadores-casa (gol)>
+<!ELEMENT jugadores-visitantes (gol+)>
+<!ELEMENT gol (minuto,penalti,tarjeta?)>
+<!ELEMENT minuto (#PCDATA)>
+<!ELEMENT penalti (#PCDATA)>
+<!ELEMENT tarjeta (#PCDATA)>
+]>
+
+<partido>
+    <Equipos>
+        <Equipo-casa>
+            <nombre>Los tigres</nombre>
+        </Equipo-casa>    
+        <Equipo-visitante>
+            <nombre>Valencia</nombre>
+        </Equipo-visitante>
+    </Equipos>
+    <jugadores>
+        <jugadores-casa>
+            <gol>
+                <minuto>60</minuto>
+                <penalti>si</penalti>
+                <tarjeta>roja</tarjeta>
+            </gol>
+        </jugadores-casa>
+        <jugadores-visitantes>
+            <gol>
+                <minuto>30</minuto>
+                <penalti>no</penalti>
+            </gol>
+            <gol>
+                <minuto>15</minuto>
+                <penalti>no</penalti>
+            </gol>    
+        </jugadores-visitantes>
+    </jugadores>
+</partido>

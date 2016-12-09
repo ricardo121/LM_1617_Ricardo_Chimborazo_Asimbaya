@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cateneMontuose[
+<!ELEMENT cateneMontuose (catenaMontuosa*)>
+<!ELEMENT catenaMontuosa (monte+)>
+<!ELEMENT monte (nome,regione?,altezza?)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT regione (#PCDATA)>
+<!ELEMENT altezza (#PCDATA)>
+<!ATTLIST altezza unitaMisura CDATA #REQUIRED>
+]>
+
+<cateneMontuose>
+    <catenaMontuosa>
+        <monte>
+            <nome>Aconcagua</nome>
+        </monte>
+         <monte>
+            <nome>Volcán Chimborazo</nome>
+            <regione>Ecuador</regione>
+            <altezza unitaMisura="m">6.268 m</altezza>
+        </monte>
+    </catenaMontuosa>
+</cateneMontuose>
+    
+    
