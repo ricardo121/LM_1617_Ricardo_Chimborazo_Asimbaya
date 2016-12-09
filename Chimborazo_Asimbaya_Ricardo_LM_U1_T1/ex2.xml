@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<busroute>
+    <Rute name="El corrido">
+        <stops>
+            <stop>
+                <name>Los arcos</name>
+                <schedule>9:00</schedule>
+            </stop>
+            <stop>
+                <name>Puerta Jerez</name>
+                <schedule>9:45</schedule>
+            </stop>
+            <stop>
+                <name>Chapina</name>
+                <schedule>10:30</schedule>
+            </stop>
+            <stop>
+                <name>Ronda Capuchino</name>
+                <schedule>11:30</schedule>
+            </stop>    
+            <stop>
+                <name>Plaza America</name>
+                <schedule>12:45</schedule>
+            </stop> 
+            <stop>
+                <name>La macarena</name>
+                <schedule>13:30</schedule>
+            </stop> 
+            <stop>
+                <name>Plaza Cuba</name>
+                <schedule>14:15</schedule>
+            </stop>
+        </stops>    
+    </Rute>
+</busroute> 

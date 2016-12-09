@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cookbook>
+    <recipes>
+            <recipe name="Tortilla de Patatas">
+                <ingredientes>
+                    <ingrediente>eggs</ingrediente>
+                    <ingrediente>potatoes</ingrediente>
+                    <ingrediente>onion</ingrediente>
+                </ingredientes>    
+                <cooking_process>
+                    <primero>picar cebolla y patatas</primero> 
+                    <segundo>batir los huevos</segundo>
+                    <tercero>echarlo todo en una sarten</tercero>
+                    <cuarto>esperar 25 minutos</cuarto>
+                </cooking_process>
+            </recipe>
+            <recipe name="Ensaladilla Gambas">
+                <ingredientes>
+                    <ingrediente>carrot</ingrediente>
+                    <ingrediente>potatoes</ingrediente>
+                    <ingrediente>Gambas</ingrediente>
+                    <ingrediente>prawns</ingrediente>
+                    <ingrediente>Mayonnaise</ingrediente>
+                </ingredientes>    
+                <cooking_process>
+                    <primero>picar zanahoria y patatas</primero>
+                    <segundo>pelar las gambas</segundo>
+                    <tercero>echar todo en un plato</tercero>
+                    <cuarto>mezclarlo con la moyonesa</cuarto>
+                </cooking_process>
+            </recipe>
+    </recipes>
+</Cookbook> 
+                
+                                            
+        
+                
+                
+                    

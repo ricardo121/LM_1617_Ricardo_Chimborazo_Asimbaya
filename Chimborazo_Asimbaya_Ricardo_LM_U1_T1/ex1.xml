@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subjects>
+    <subject name="LMSGI">
+        <student>
+            <name>Alberto</name>
+            <surname>lopez Beas</surname>
+            <telephone>667894534</telephone>
+            <address>AV.bormujos</address>
+        </student>
+        <student>
+            <name>Noelia</name>
+            <surname>Sanchez Canela</surname>
+            <telephone>678925445</telephone>
+            <address>calle cordoba</address>
+        </student>
+        <student>
+            <name>Jose Antonio</name>
+            <surname>lopez Garcia</surname>
+            <telephone>678965346</telephone>
+            <address>Calle juan carlos I</address>
+        </student>
+        <student>
+            <name>Jose Alberto</name>
+            <surname>Pérez Pérez</surname>
+            <telephone>671282343</telephone>
+            <address>Calle Juan Carlos II</address>
+        </student>
+        <student>
+            <name>Ricardo</name>
+            <surname>Chimborazo Asimbaya</surname>
+            <telephone>671928361</telephone>
+            <address>Calle Febo</address>
+        </student>
+        <student>
+            <name>Esteban</name>
+            <surname>Garcia Garcia</surname>
+            <telephone>673829156</telephone>
+            <address>Calle Betis</address>
+        </student>
+        <student>
+            <name>Jose Manuel</name>
+            <surname>leal Camarena</surname>
+            <telephone>673829386</telephone>
+            <address>Calle Salado</address>
+        </student>
+        <student>
+            <name>Diego</name>
+            <surname>Morales Flores </surname>
+            <telephone>673729176</telephone>
+            <address>Calle Pureza</address>
+        </student>
+        <student>
+            <name>Rocio</name>
+            <surname>Garcia Lopez</surname>
+            <telephone>678828156</telephone>
+            <address>Av.Roma</address>
+        </student>
+        <student>
+            <name>Daniel</name>
+            <surname>ruiz perez</surname>
+            <telephone>678821156</telephone>
+            <address>Calle Luz Arriero</address>
+        </student>
+    </subject>
+    <subject name="GBD">
+        <student>
+            <name>Alberto</name>
+            <surname>lopez Beas</surname>
+            <telephone>667894534</telephone>
+            <address>AV.bormujos</address>
+        </student>
+        <student>
+            <name>Noelia</name>
+            <surname>Sanchez Canela</surname>
+            <telephone>678925445</telephone>
+            <address>calle cordoba</address>
+        </student>
+        <student>
+            <name>Jose Antonio</name>
+            <surname>Lopez Garcia</surname>
+            <telephone>678965346</telephone>
+            <address>Calle juan carlos I</address>
+        </student>
+        <student>
+            <name>Jose Alberto</name>
+            <surname>Pérez Pérez</surname>
+            <telephone>671282343</telephone>
+            <address>Calle Juan Carlos II</address>
+        </student>
+        <student>
+            <name>Ricardo</name>
+            <surname>Chimborazo Asimbaya</surname>
+            <telephone>671928361</telephone>
+            <address>Calle Febo</address>
+        </student>
+        <student>
+            <name>Esteban</name>
+            <surname>Garcia Garcia</surname>
+            <telephone>673829156</telephone>
+            <address>Calle Betis</address>
+        </student>
+        <student>
+            <name>Jose Manuel</name>
+            <surname>leal Camarena</surname>
+            <telephone>673829386</telephone>
+            <address>Calle Salado</address>
+        </student>
+        <student>
+            <name>Diego</name>
+            <surname>Morales Flores </surname>
+            <telephone>673729176</telephone>
+            <address>Calle Pureza</address>
+        </student>
+        <student>
+            <name>Rocio</name>
+            <surname>Garcia Lopez</surname>
+            <telephone>678828156</telephone>
+            <address>Av.Roma</address>
+        </student>
+        <student>
+            <name>Daniel</name>
+            <surname>ruiz perez</surname>
+            <telephone>678821156</telephone>
+            <address>Calle Luz Arriero</address>
+        </student>
+    </subject>
+</subjects>    
