@@ -1,0 +1,53 @@
+<html>
+    <head>
+	    <title>jQuery Template</title>
+      <link rel="stylesheet" href="./Menu.css">
+      <script src="js/jquery-3.1.1.min.js"></script>
+	    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+	     <div id="container">
+         <div id="fuera">
+           <div id="derecha">
+             <img  src="flecha2.png" height="55px" width="30px"/>
+           </div>
+           <div class="imagen">
+             <img class="dentro" src="Volkswagen.jpg" height="500px" width="1000px"/>
+           </div>
+           <div class="imagen">
+             <img class="dentro" src="Mercedes.jpg" height="500px" width="1000px"/>
+           </div>
+           <div class="imagen">
+             <img class="dentro" src="Peugeot.jpg" height="500px" width="1000px"/>
+           </div>
+           <div class="imagen">
+             <img class="dentro" src="Seat.jpg" height="500px" width="1000px"/>
+           </div>
+           <div id="izquierda">
+             <img  src="flecha1.png" height="55px" width="30px"/>
+           </div>
+         </div>
+	    </div>
+     <script>
+     $(function() {
+       $(".imagen").hide();
+       $(".imagen:first").show();
+
+       $("#izquierda").click(function() {
+        if($(".imagen").next().length!=0){
+          $(".imagen").animate({opacity:0,},100)
+          .removeclass(".imagen").next(".imagen").addclass(".imagen").animate({opacity:1,},100)
+        }
+      });
+      $("#derecha").click(function() {
+       if($(".imagen").prev().length!=0){
+         $(".imagen").animate({opacity:0,},100)
+         .removeclass(".imagen").prev(".imagen").addclass(".imagen").animate({opacity:1,},100)
+       }
+     });
+    });
+
+     </script>
+    </body>
+</html>
