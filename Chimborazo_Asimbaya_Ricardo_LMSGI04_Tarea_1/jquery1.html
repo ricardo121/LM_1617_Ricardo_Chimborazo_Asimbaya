@@ -1,0 +1,119 @@
+<!--
+    Author: Juan Diego Pérez @pekechis
+    E-mail: contact@jdperez.es
+    Description: Template for jQuery Exercises
+    Date: December 2016
+    Reference: http://api.jquery.com/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Template</title>
+	<!-- Loading jQUery Script -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery1.css"/>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>jQuery Template</h1>
+	<table border="1">
+		<tr class="hola">
+			<td></td>
+			<td>Lunes</td>
+			<td>Martes</td>
+			<td>Miercoles</td>
+			<td>Jueves</td>
+			<td>Viernes</td>
+		</tr>
+		<tr>
+			<td>8,15-9,15</td>
+			<td>LM</td>
+			<td>FOL</td>
+			<td>LM</td>
+			<td>Redes</td>
+			<td>GBD</td>
+		</tr>
+		<tr>
+			<td>9,15-10,15</td>
+			<td>LM</td>
+			<td>Redes</td>
+			<td>LM</td>
+			<td>Redes</td>
+			<td>GBD</td>
+		</tr>
+		<tr>
+			<td>10,15-11,15</td>
+			<td>FOL</td>
+			<td>Redes</td>
+			<td>FOL</td>
+			<td>Redes</td>
+			<td>GBD</td>
+		</tr>
+		<tr>
+			<td>11,45-12,45</td>
+			<td>GBD</td>
+			<td>Redes</td>
+			<td>ISO</td>
+			<td>ISO</td>
+			<td>Hardware</td>
+		</tr>
+		<tr>
+			<td>12,45-13,45</td>
+			<td>GBD</td>
+			<td>ISO</td>
+			<td>ISO</td>
+			<td>ISO</td>
+			<td>Hardware</td>
+		</tr>
+		<tr>
+			<td>13,45-14,45</td>
+			<td>GBD</td>
+			<td>ISO</td>
+			<td>ISO</td>
+			<td>ISO</td>
+			<td>Hardware</td>
+		</tr>
+	</table>
+	<table id="students" border="1" >
+		<tr>
+			<td>Esteban</td>
+		</tr>
+		<tr>
+			<td>Daniel</td>
+		</tr>
+		<tr>
+			<td>Pablo</td>
+		</tr>
+		<tr>
+			<td>Javier</td>
+		</tr>
+		<tr>
+			<td>Eduardo</td>
+		</tr>
+		<tr>
+			<td>Alejandro</td>
+		</tr>
+		<tr>
+			<td>Alberto</td>
+		</tr>
+	</table>
+	<p>H</p>
+	<p>O</p>
+	<p>L</p>
+	<p class="show">A</p>
+
+	<script>
+	  //Function executed when the HTML document is Ready (full loaded)
+	  $(function() {
+			$("h1").addClass("cabecera");
+			$(".hola").addClass("fondo");
+			$("#students tr:odd").addClass("impar");
+			$("#students tr:even").addClass("par");
+			$("p").hide();
+			$(".show").show();
+	  });
+	</script>
+
+</body>
+</html>

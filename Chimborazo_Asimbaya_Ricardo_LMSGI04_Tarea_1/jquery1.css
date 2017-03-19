@@ -1,0 +1,18 @@
+.cabecera {
+    background-color: black;
+    color:white;
+}
+.fondo {
+  background-color: red;
+  color: white;
+}
+
+.impar {
+background-color: grey;
+color: black;
+}
+
+.par {
+background-color: grey;
+color: white;
+}
