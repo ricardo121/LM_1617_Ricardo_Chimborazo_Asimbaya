@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>jQuery Template</title>
+        <link rel="stylesheet" href="./ejercicio4.css">
+        <script src="js/jquery-3.1.1.min.js"></script>
+	    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+		<h1>Tecnologia</h1>
+    <div id="contenedor">
+        <div class="fila">
+            <div class="arriba">
+                <img src="Icono.jpg" height="35px" class="izquierda"/><p class="derecha1">PC</p>
+            </div>
+            <div class="abajo">
+                <img src="Ordenador.jpg" height="75px" class="izquierda"/><p class="derecha2">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</br> Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre</br> anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</br> Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique. </p>
+            </div>
+      	</div>
+				<div class="fila">
+            <div class="arriba">
+                <img src="Icono.jpg" height="35px" class="izquierda"/><p class="derecha1">Camara</p>
+            </div>
+            <div class="abajo">
+                <img src="Camara.jpg" height="75px" class="izquierda"/><p class="derecha2">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</br> Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre</br> anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</br> Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique. </p>
+            </div>
+      	</div>
+				<div class="fila">
+            <div class="arriba">
+                <img src="Icono.jpg" height="35px" class="izquierda"/><p class="derecha1">PS4</p>
+            </div>
+            <div class="abajo">
+                <img src="PS4.jpg" height="75px" class="izquierda"/><p class="derecha2">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</br> Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre</br> anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</br> Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique. </p>
+            </div>
+      	</div>
+				<div class="fila">
+            <div class="arriba">
+                <img src="Icono.jpg" height="35px" class="izquierda"/><p class="derecha1">PS3</p>
+            </div>
+            <div class="abajo">
+                <img src="PS3.jpg" height="75px" class="izquierda"/><p class="derecha2">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</br> Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre</br> anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</br> Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique. </p>
+            </div>
+      	</div>
+				<div class="fila">
+            <div class="arriba">
+                <img src="Icono.jpg" height="35px" class="izquierda"/><p class="derecha1">Movil</p>
+            </div>
+            <div class="abajo">
+                <img src="Movil.jpg" height="75px" class="izquierda"/><p class="derecha2">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</br> Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre</br> anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</br> Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique. </p>
+            </div>
+      	</div>
+		</div>
+		<script>
+		$(function() {
+
+				$("div > div > div:last-child").siblings().next().hide();
+				$("div > div > div:first-child").click(function() {
+					$(this).next().animate({
+						height:"toggle"
+					},1000);
+				});
+				$("div > div > div:first-child").click(function() {
+					$(this).parent().siblings().children("div:nth-child(2)").animate({
+						height:"hide"
+					},1000);
+				});
+		});
+
+		</script>
+</body>
