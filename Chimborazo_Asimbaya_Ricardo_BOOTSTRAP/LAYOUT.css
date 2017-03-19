@@ -1,0 +1,57 @@
+#fondo1 {
+    background-image: url("Fondo.png");
+}
+#fondo2 {
+    background-color:#f9f7f7;
+}
+#cuadrado {
+    background-color: #901717;
+    height: 180px;
+    width: 300px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8%;
+    padding-top: 18%;
+}
+#buttom {
+    background-color: white;
+    text-align: center;
+    width: 80px;
+    height:20px ;
+    margin-left: 80%;
+    margin-top: 7%
+}
+#titulo {
+ margin-top: 2%;
+ margin-left: 4%;
+}
+#flechas {
+  margin-top: 180%;
+}
+
+
+h1{
+  font-size: 26px;
+  color: grey;
+  text-align: center;
+}
+h2 {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+}
+h3 {
+  color: white;
+  font-size: 21px;
+}
+h4 {
+  font-size: 17px;
+  color:grey;
+}
+h5 {
+  color: black;
+}
+p {
+  color: white;
+}
